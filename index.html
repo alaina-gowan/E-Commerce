@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/468ec12282.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 
     <title>E-commerce</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-black">
         <div class="container">
@@ -49,10 +52,327 @@
     </nav>
     <!-- End of Navbar -->
 
+    <!-- Slider -->
+    <section id="main">
+        <div id="Carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#Carousel" data-slide-to="1"></li>
+                <li data-target="#Carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- Image One -->
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3 title-color">Title One</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, blanditiis.
+                            </p>
+                            <a href="#" class="btn btn-color slide-btn btn-lg">Sign Up Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--- Image Two -->
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
+                            <h1 class="display-3 title-color">Title Two</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, blanditiis.
+                            </p>
+                            <a href="#" class="btn btn-color slide-btn btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image Three -->
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
+                            <h1 class="display-3 title-color">Title Three</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, blanditiis.
+                            </p>
+                            <a href="#" class="btn btn-color slide-btn btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#Carousel" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#Carousel" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Slider -->
+
+    <!-- Services Section -->
+    <section class="services py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Single Service -->
+                <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+                    <span class="service-icon">
+                        <i class="fas fa-globe fa-2x"></i>
+                    </span>
+                    <h5 class="font-weight-bold text-uppercase">Worldwide Shipping</h5>
+                    <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam,
+                        blanditiis.</p>
+                </div>
+                <!-- End of Single Service -->
+
+                <!-- Single Service -->
+                <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+                    <span class="service-icon">
+                        <i class="fas fa-stamp fa-2x"></i>
+                    </span>
+                    <h5 class="font-weight-bold text-uppercase">Certified by Gurus</h5>
+                    <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam,
+                        blanditiis.</p>
+                </div>
+                <!-- End of Single Service -->
+
+                <!-- Single Service -->
+                <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+                    <span class="service-icon">
+                        <i class="fas fa-file-invoice-dollar fa-2x"></i>
+                    </span>
+                    <h5 class="font-weight-bold text-uppercase">30 days Money Back</h5>
+                    <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam,
+                        blanditiis.</p>
+                </div>
+                <!-- End of Single Service -->
+            </div>
+        </div>
+    </section>
+    <!-- End of Services Section-->
+
+    <!-- Featured Products -->
+    <section id="products" class="products py-5">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row">
+                <div class="col-10 mx-auto col-sm-6 text-center">
+                    <h1 class="text-capitalize product-title">featured products</h1>
+                </div>
+            </div>
+            <!-- End of Section Title-->
+            <!-- Products Items -->
+            <div class="row product-items" id="product-items">
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+                <!-- Single Item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="Images/image1.jpg" alt="" class="card-img-top product-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="item-name">Branded Watch</h5>
+                                <span><i class="fas fa-dollar-sign"></i>350</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Single Item -->
+            </div>
+            <!-- End of Products Items-->
+        </div>
+    </section>
+    <!-- End of Featured Products-->
+
+    <!-- About Section -->
+    <section id="about-sec">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center">
+                    <img src="Images/about.jpg" width="450" height="150" class="img-fluid watch-img">
+                </div>
+                <div class="col-lg-7 text-lg-right text-center text-color about-text">
+                    <h1>About Company</h1>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, blanditiis. Lorem
+                        ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, blanditiis. Lorem ipsum dolor sit
+                        amet consectetur, adipisicing elit. Ipsam, blanditiis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Section-->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
