@@ -15,7 +15,11 @@ body {
 }
 
 .bg-black{
-    background: #000;
+    background: #be8c8d;
+}
+
+.dark-pink{
+    color: #9f4294!important;
 }
 
 /* =========================================================== SLIDER =========================================================== */
@@ -24,33 +28,37 @@ body {
 }
 .carousel-image-1{
     background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('./Images/hero-image.jpg');
+    url('./Images/photocard-collection-example.jpeg');
     background-size: cover;
 }
 
 .carousel-image-2{
     background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('./Images/image9.jpg');
+    url('./Images/nct-2021-beautiful.jpeg');
     background-size: cover;
 }
 
 .carousel-image-3{
     background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('./Images/image1.jpg');
+    url('./Images/kpop-artists-collage.png');
     background-size: cover;
 }
 
 .title-color{
-    color: #fff;
+    color: #dd99b0;
+}
+
+.p-color{
+    color: #ffe4eb;
 }
 
 .btn-color{
-    background: #000;
-    color: grey;
+    background: #9f4294;
+    color: #e2afd3;
 }
 
 .btn-color:hover{
-    color: #fff;
+    color: #ffe4eb;
 }
 
 @keyframes slide-btn{
@@ -96,10 +104,21 @@ body {
     display: inline-block;
     font-size: 32px;
     margin-bottom: 16px;
-    color: #000;
+    color: #9f4294;
     padding: 8px 16px;
 }
 
+.bg-pink{
+    background-color: #ffe4eb;
+}
+
+.service-h{
+    color: #e4aed3;
+}
+
+.service-p {
+    color: #9f4294;
+}
 
 /* =========================================================== FEATURED PRODUCTS =========================================================== */
 #products{
@@ -175,11 +194,13 @@ body {
 
 /* =========================================================== ABOUT SECTION =========================================================== */
 #about-sec{
-    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: #ffe4eb;
 }
 
 .text-color{
-    color: #000;
+    color: #9f4294;
 }
 
 .watch-img{
